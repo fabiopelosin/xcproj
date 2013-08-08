@@ -330,6 +330,7 @@ static Class XCBuildConfiguration = Nil;
 
 - (int) touch:(NSArray *)arguments
 {
+    ddprintf(@"Touching: %@", project.path);
 	return [self writeProject];
 }
 

@@ -77,6 +77,8 @@
 				<string>NSString</string>
 				<key>-name</key>
 				<string>NSString</string>
+				<key>-path</key>
+				<string>NSPathStore2</string>
 				<key>-targetNamed:</key>
 				<string>PBXTarget</string>
 				<key>-targets</key>

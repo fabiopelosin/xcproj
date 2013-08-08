@@ -1,6 +1,8 @@
 #import "PBXTarget.h"
 #import "XCConfigurationList.h"
 
+@class NSPathStore2;
+
 @protocol PBXProject <PBXContainer, NSObject>
 
 + (BOOL) isProjectWrapperExtension:(NSString *)extension;
@@ -10,6 +12,7 @@
 - (id<PBXTarget>) targetNamed:(NSString *)targetName;
 
 - (NSString *) name;
+- (NSPathStore2 *) path;
 
 - (id<XCConfigurationList>) buildConfigurationList;
 
